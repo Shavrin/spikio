@@ -7,6 +7,9 @@ module.exports = {
       template: path.resolve(__dirname, 'src/index.html'),
     }),
   ],
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
   module: {
     rules: [
       {
